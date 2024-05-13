@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="produto.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="script1.js"></script>
+  <title>Document</title>
+</head>
+
+
+
+<body>
+  
+  <header>
+    <a href="" class="logo"> <img src="img/logo-removebg-preview.png"  alt=""  ></a>
+
+
+
+
+    <ul class="navmenu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Lançamentos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Feminino</a></li>
+        <li><a href="#">Masculino</a></li>
+        <li><a href="#">Infantil</a></li>
+       
+    </ul>
+
+
+    <div class="nav-icon">
+        <a href=""> <i class='bx bx-search'></i> </a>
+        <a href=""> <i class='bx bx-user'></i></a>
+        <a href=""> <i class='bx bx-cart' ></i></a>
+       
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+
+    </div>
+</header>
+
+<main>
+
+    <div class="camisa" >
+        <div class="imagem">
+            <img id="minhaImagem" src="https://static.zara.net/assets/public/a5b3/cbe9/75cb4c5abfef/2ed98a330f6d/4000.jpg?ts=1696238213000&w=563"  >
+        </div>
+    </div>
+
+
+<Div class="produto">
+    <h1>Body de poliamida</h1>
+    <p><strong> Moda Feminina</strong></p>
+
+    <box-icon name='star' type='solid' >
+        <i class='bx bxs-star' ></i>
+        <i class='bx bxs-star' ></i>
+        <i class='bx bxs-star' ></i>
+        <i class='bx bxs-star' ></i>
+        <i class='bx bxs-star' > 5.0</i>
+    </box-icon>
+
+    <div class="valor">
+        <section>
+          <strong>R$ 129,00</strong>
+        </section>
+      
+      <div>
+       
+       <div class="alterar">
+        <label for="quantidade">Quantidade:</label>
+        <select id="quantidade" name="quantidade" onchange="atualizarValor()">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+      </div>
+
+      <div>
+        <strong>Valor total:</strong>
+        <span id="valor-total">R$ 129.00</span> <!-- Inicializa com valor do produto -->
+      </div>
+    </div>
+       </div>
+     
+    
+    
+        <div class="trocar">
+            
+            <button onclick="preto()" class="preto"></button>
+            <button onclick="azul()" class="azul"></button>
+            <button onclick="bege()" class="bege"></button>
+            <button onclick="amarelo()" class="amarelo"></button>
+         
+        </div>
+    
+    
+        <button class="button" onclick="finalizar()">Adicionar</button>
+</Div>
+
+<div class="comentarios">
+  <h2>Comentáros:</h2>
+  <br>
+  <ul>
+    <li>Ótimo produto, super confortável! - Simba ⭐⭐⭐⭐⭐</li>
+    <br>
+    <li>Amei a qualidade, vale cada centavo! - Timão 
+  <br>⭐⭐⭐⭐⭐</li>
+    <br>
+    <li>Entrega rápida e produto conforme descrição. Recomendo! - Pumba ⭐⭐⭐⭐⭐</li>
+  </ul>
+</div>
+
+
+
+
+
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</body>
+
+
+
+</html>
